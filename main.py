@@ -12,5 +12,5 @@ model = ChatOpenAI(
 )
 
 
-response = model.invoke("Hello")
+response = model.invoke("who is prime minister of india")
 print(response)
